@@ -49,32 +49,32 @@ public class Funciones {
         return x;
     }
 
-    public static void test1() {
+    public static void testproducto() {
         int n = 4;
         int k = 2;
         System.out.println("El producto de " + n + " y " + k + " es: " + calcularProducto(n, k));
     }
 
-    public static void test2() {
+    public static void testproductogeo() {
     	int a1 = 3;
     	int r = 5;
     	int k = 2;
         System.out.println("El producto de la secuencia geométrica con a1 = " + a1 + ", r = " + r + " y k = " + k + " es: " + productoGeometrico(a1, r, k));
     }
 
-    public static void test3() {
+    public static void testcombinatorio() {
     	int j = 4;
     	int i = 2;
         System.out.println("El número combinatorio de " + j + " y " + i + " es: " + combinatorio(j, i));
     }
 
-    public static void test4() {
+    public static void testS() {
     	int n = 4;
     	int k = 2;
         System.out.println("El número S(n,k) siendo n = " + n + " y k = " + k + " es: " + calcularS(n, k));
     }
 
-    public static void test5() {
+    public static void testnewton() {
     	double a = 3;
         double e = 0.001;
         double raiz = metodoNewton(x -> 2 * x * x, x -> 4 * x, a, e);
@@ -82,10 +82,10 @@ public class Funciones {
     }
 
     public static void main(String[] args) {
-        test1();
-        test2();
-        test3();
-        test4();
-        test5();
+        testproducto();
+        testproductogeo();
+        testcombinatorio();
+        testS();
+        testnewton();
     }
 }
