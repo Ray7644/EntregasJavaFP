@@ -69,32 +69,32 @@ public class Lecturas {
         return totalLineas > 0 ? (double) totalCaracteres / totalLineas : 0;
     }
 
-    public static void test6() {
+    public static void testcontarpalabra() {
         String fichero = "resources/lin_quijote.txt";
         String palabra = "quijote";
         System.out.println("El número de veces que aparece la palabra " + palabra + " en el fichero " + fichero + " es: " + contarPalabra(fichero, " ", palabra));
     }
 
-    public static void test7() {
+    public static void testlineasquecontienen() {
         String fichero = "resources/lin_quijote.txt";
         String palabra = "quijote";
         System.out.println("Las líneas en las que aparece la palabra " + palabra + " son: " + lineasQueContienen(fichero, palabra));
     }
 
-    public static void test8() {
+    public static void testpalabrasunicas() {
         String fichero = "resources/archivo_palabras.txt";
         System.out.println("Las palabras únicas en el fichero " + fichero + " son: " + palabrasUnicas(fichero));
     }
 
-    public static void test9() {
+    public static void testlongitudmedialineascsv() {
         String fichero = "resources/palabras_random.csv";
         System.out.println("La longitud promedio de las líneas del fichero " + fichero + " es: " + longitudMediaLineasCSV(fichero, ","));
     }
 
     public static void main(String[] args) {
-        test6();
-        test7();
-        test8();
-        test9();
+        testcontarpalabra();
+        testlineasquecontienen();
+        testpalabrasunicas();
+        testlongitudmedialineascsv();
     }
 }
