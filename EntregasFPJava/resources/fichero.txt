@@ -1,0 +1,8 @@
+Vamos a probar la función con varias líneas.
+Aquí hay una prueba prueba de palabras consecutivas.
+Esta línea no tiene palabras repetidas.
+Otra línea con con palabras consecutivas para verificar.
+Una línea más con ejemplo ejemplo de detección.
+Este archivo sirve para para probar la función correctamente.
+Esperamos que todo funcione bien bien en la ejecución.
+Venga, una última ya, esperemos que esta prueba prueba funcione.
